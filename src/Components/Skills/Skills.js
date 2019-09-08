@@ -5,7 +5,6 @@ import "./Skills.css"
 export default function Skills() {
     return (
         <div className="Skills_List">
-            <h4>For more Info, Click Here</h4>
         <div className="Skills_Outer">
             <div className="Skills_Container">
                 <div className="Skills_Logo_JavaScript">
@@ -44,6 +43,7 @@ export default function Skills() {
                 </div>
             </div>
         </div>
+            <h4 className="Skills_Link">For more Info, Click Here</h4>
         </div>
     )
 }

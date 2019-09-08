@@ -19,14 +19,6 @@
     flex-wrap: wrap;
 }
 
-.Grid_Box {
-    height: 19.2%;
-    width: 19.4%;
-    border: 2px solid rgba(20, 181, 245, 0.315);
-    position: relative;
-    left: 2px;
-}
-
 .TopLeft {
     border-radius: 10px 0 0 0;
 }

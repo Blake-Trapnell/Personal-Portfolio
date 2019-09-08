@@ -97,6 +97,13 @@ export default class Nav extends Component {
                 else {
                     TweenLite.to(document.getElementsByClassName('Main_Navigation_Bottom'), .2, { opacity: 0, })
                 }
+                if (this.hitTest(".Skills_Link", "30%")) {
+                    console.log('hit')
+                    TweenLite.to(document.getElementsByClassName('Skills_Link'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
+                }
+                else {
+                    TweenLite.to(document.getElementsByClassName('Skills_Link'), .2, { opacity: 0, })
+                }
             }
 
         });

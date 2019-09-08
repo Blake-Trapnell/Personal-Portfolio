@@ -15,6 +15,12 @@
     color: rgba(245, 245, 245, 0.781)
 }
 
+.Skills_Link {
+    color: rgba(255, 255, 255, 0.747);
+    text-shadow: 0 0 10px rgba(26, 190, 255, 0.801);
+    opacity: 0;
+}
+
 .Skills_Container {
     height: 100px;
     width: 100px;
@@ -27,7 +33,9 @@
     background-repeat: no-repeat;
     display: flex;
     background-image: url("https://lh3.googleusercontent.com/d_Ow1i1r5yWKcI_yiWo5pA-jyz374XMaWL8rMJq3q6fYlRf9xx6mks-eT1qQkpWn5xNSIim31Xa-HMJX9fN6rzUY8ySmoPjzXHKY2U4bOiBuPrua9b6MYlPJ3rkZhf9cP1zG42csDtOLIRIaxI94-iHS-k6QdtdXJnl9PFFchMDEo3qq8GTmUW8YPIXsMwIfsFtEi-qc1k5JX3FwNVquL3q49yfx0G0fy5TJOwWUMX9ep9nXcIaxFH2f4orfDNFppqG5tt_bbiA3lYpG-1_AvvpZ8DwpwqOl7kfPYoDWKFHxkoszHX1yXcZqcZlTHNbOo10t1Ohjs_el-VlPJLwC9WFXId38GipgZYHFI-0h_YDiZM-9BqBSv-u9vRi8_qtEkEc5VZJr0re5YIndm_F2LEO66Omxew9xcENym0UoyTRXDslK6tHlB_EVQddjfjudiX71W1PRH0XZpDgWFlfKOdt9jiZ_N5gnhSCqblxrX6jJOsMimmDGc8DbdxDP0g6hFHBWSEDHGdZdkzE2IfPRwkjGFV68o6GeSCgenOqX94ST7ZetwAMpNElcsSww8387JaYt5pZlV1JUs7gjPHPO63FKbhjIRayRzOn8GgrDM79aECmtBQtabgvC9zABbeS7BvWgqxjISOdU0axdVFurEdb3UwpotZmLhU4kOTeR5PY331jexHge6A=s500-no");
-    opacity: 0
+    opacity: 0;
+    box-shadow: 0px 0px 60px rgba(230, 255, 6, 0.815) inset;
+    border-radius: 5px;
 }
 
 .Skills_Logo_Html5 {
@@ -38,6 +46,9 @@
     display: flex;
     background-image: url("https://lh3.googleusercontent.com/MppGWRJtWa6XIlOEpHaJFdWliAxcK1NfUrylPECWicI9mwQNimmaL6QY76z0JCofYm3GyM6by4gGoVq-1KaPrDctEGmDQ4Ab4IBl9R2FsNDL1JDhs_peNl_CueIPNS-Q6D9TztOuclGHWaG8cJKjmaYoqQqfpOSrPE8ybdls9xaj13kHtyAlMEBvBPHKx-l9-rJ5ftA7ZkVT9tPQv2cZBNprtGO_lrekWsXKmwzLMJhqmR78X03s3CQWAORobUXbTjmeprrdbi3ZmQ7U_Ffv5dLMFc3Oslcx7E8TizMnymFiQa0Gng6byMKOdzc_a__dlTKfBoQzJmDXlYiVPluuyV1fpIhfG_PlTXDtzBsztocZRerbgmRGqd4I7K_DBTZdf6jWvhJz04ZUjsNa1waALMjP-WONZRjK5HkL--XaJuQPBA4mU1jcD_1NhkjmIwkxSpSmaYndzu-XOqNJONFHJv17qRZqVn-d42Wwcdam2IONpzfMzXbebgzfGCqKsUAWVEyja0oew60ld0GZlk2q4PtpkWLghMcu-OnJaLIYQ28ZHCGC5AiV7-8tE8iXdLQ8mi0LyoqZBp15wFFo_uu8jeUpBYBPmdhD1hA_Qdal8JJRpY9hzX1YvSEHGussKm4OLFgthC0dRMCz4zVEw6RTDK5-Ia2yeFggUUiaY1Xs9xHOAkiFiLweHA=w500-h583-no");
     opacity: 0;
+    box-shadow: 0px 0px 40px rgba(255, 176, 6, 0.925) inset;
+    border-radius: 5px;
+    background-position: center;
 }
 
 .Skills_Logo_Css3 {
@@ -48,6 +59,9 @@
     display: flex;
     background-image: url("https://lh3.googleusercontent.com/5bjdo04qIGlKynAsBefjjElAzVp9zMt_N05SoHZQ2utrXo5cKDNDz36EuP9RqCvrnmGSl_5KraN_uDPukfI666d-6k9rsucdnkXGA1WWobtOROmNdYc-FtxtaN7Vvy4Yuc4-jyfZDC3_1B6WZGv33e0P70S56Rd3Iu19TorGtRGcfMo5eqsGoRdIt2aHKNWl1QGQiim4j40t1RcU31J15G4NKnu2vgITysU3O7G7dfKn3OEjRpZjP30MnPCetYKRR86LfiA6BkOU2B10CX8ffvZps5cask6i-XwChNPI_eNMDHTzsKs_xlrZ1wEzO3o3YpEBmxvRYi2GC8NyxqtErCb2Zm0jlsoZBs0WHcVmdFZ-hZdJUnF2guOGHYATAYMsM_g5mXonhqDKVaOfldXYoPcHkjbLj60oMP2wET39muIKYhmkqfSe3ctus7yExEDE74GVvss42EA7en75611Tq05yFeil_cyDhFf5htXJHknyNFepB9-j5a01qotiHldIO2b8MYWdv0wqAJEigA7UppqjZpjZJGK6mz4WmLbfqUwEyV8VCyXGQGPNUi6lCH6y0ISeG23HANPvDFRiu787WV63opqIFJ-pHY7sVGy9O_paEJKsb19q-OymmWM0-yGJUU4m-ZCBfcm0z-78YmqZl375j3bnmmT8pNwX0HKgl6eCFS01KGvTww=w500-h583-no");
     opacity: 0;
+    box-shadow: 0px 0px 40px rgba(6, 106, 255, 0.925) inset;
+    border-radius: 5px;
+    background-position: center;
 }
 
 .Skills_Logo_React {
@@ -57,7 +71,10 @@
     background-repeat: no-repeat;
     display: flex;
     background-image: url("https://lh3.googleusercontent.com/quWzfInCtnEzc0B7SXQOwPR-H0czbH1ihJPmjyLf6TYEDMeZWQ9kB2jxQPvhjZ_KMNpxgsUAbxOxBwy8jMvimDUK3xXo4W0OZtA2EaIcKDxW5eB59XNYhLTl0mB-m5IHREocAXNoMonznHw1G4ysEVHZ50-Ue-tERR9WVtNQYWIksfUCRnYavBBznHKDac3jCVEUANY681ZwvA1YncG8hfedx0sFEPgmeCM8uXACOhwsBZo4RFDTzsjVoeMpE0X7NqPRB50F1j15Zc0WJ_T1QwU0DZYBKJ3DDFmQsCb87ywtqnNuW1Kaubu1cLPBndKh8B6Qh_zZC19RTzIF-buNvKTbZ5DKl0Ou5_2HRQXuCAet7YqSlTbvLt4EH_QeBYWoKIBMZYE1MLraw6fv0-N-j693waU5ocqeeJPbHkPTgpWem35lt42gFgRhhW1T-s2njHJOj7d5UKnJt5yHpnANsnjT5qjRr0-fVheVzNGNoSQV-51YgJxKpF6A8pWAShnjT26Y5o5kh3gdL1Aa02Pw9j3OfTQWTH-4pm09wVmhUjdsKbpXUyVXNrKSh2M3clKoqX-lLZFOqAUPJR5T5g8mmoyiqUm1ChTID0zRCnufns-b_iOqi96v7JDhInWGbZfvbGzs9m-bMp9aylXfGQixb0-Vri5AtGamHTfPoL1tlkkI87i5GeS82g=w500-h438-no");
-    opacity: 0
+    opacity: 0;
+    box-shadow: 0px 0px 40px rgba(6, 184, 255, 0.925) inset;
+    border-radius: 5px;
+    background-position: center;
 }
 
 .Skills_Logo_Node {
@@ -67,7 +84,10 @@
     background-repeat: no-repeat;
     display: flex;
     background-image: url("https://lh3.googleusercontent.com/dClqdCucav9RTninmAT4MqPR_LvvoV9XxzYMqaG9LZWQol8jR75-9aEOGvu1x4vTjV32a6ETjISgDYNmXzJXrO8UAftMZdhXertyuAyRSlfAn5HBeaNigZaw4N-_cgYNjZddwhFXPH0Vz7ImNJtRZljfxR1me_yEVpBRmhH9qhRlceT56LEAWED-wsxBwwl67EYdK1QnzBDfP7Nwyl7JSmLdcnWUJVlw1ocsb0LI-PhvSo-vxpFMkFpYhw274Y2u_EZNThdscI1B5n0oOIavlZx2TjFlBSBx2l8xsFgyR8BzIKZW-u6vXtjPcljHdDKKSCod5MusZ2OqSbJEQKJqMCrR5UE7GJJq2kF8kKLZHgKxCLmxc6X1SxqBw0AsVEiqc2Th-26aQEWQwqSUaVcXpzXMsIqFp15Bbovuf2fkD4UYWw0UmJYRxqsgY-TaTqS0D09GZ2K7dSDfU5ypM2yB8nw5TceZwJ2hWWvUE9oEoi1e99TKXaVE0_zfUd98FXDGBIICwN0MzhjEtQ_HPEYuwDZi6j5KmMFBXtzPZpn54v4asAvQmZdgvmdCcqgWlYbuBEfHiWKJljJByGcwfj5MLLD507IPNUXz-5gmgMijj_YVN17h66S4RaOcGEJb8WVBetrEfftiiqFa2VIrtYom-b8sH0RsyBs4WK2ZkNDJ9Fn2ODpioJSr5w=w1480-h905-no");
-    opacity: 0
+    opacity: 0;
+    box-shadow: 0px 0px 40px rgba(6, 255, 48, 0.925) inset;
+    border-radius: 5px;
+    background-position: center;
 }
 
 .Skills_Logo_Heroku {
@@ -77,7 +97,10 @@
     background-repeat: no-repeat;
     display: flex;
     background-image: url("https://lh3.googleusercontent.com/4Ys-epDZnLD2rHUfegyHbAVZ7ESgBkD3dTqHYBYz4qzLb3v3OjbBohvnbHtAftKIcdDPMCYKB9aQ72doYBzw9ue85YV5LuwMkNgYcdpSMNnttYi3joEcxmfQxGy8R8g2BT3Co1nhoxuLwo7jMt6Q6ds3OIdqfKqkfFwjey_YBMlSt_op9d6QQnx9SpDE0cpUyqpN6sFVFuGOaILYwmi1RNiKKuiqP6K1tKylLCfKcbxhl9CGwzxqMJFCzTf4xSoKAd7bfLVbEhfzJg4sPM-xm_knsjccUJrlFjphqlssRP07NaraB-SfSttwwEBM1g9_UtXLrNgMU1FCBQ3YONbu5sKtKlJV6oGI7Y6LQqrb-nIlTXpgdU-ASbN-ZflmfJ9KKj5Oq9zvgeeGJ7JM9PWZWzDRE9qU9ffnakPHyk-y-cCzC2aWS-5DOWGDtJINYqBxLBvsnGiXxjiscXzM8PF0KoEi0AxHzhSFDfblaNbdASjTG6Zs8QkEYm1tSYPbCuaDjIbMWJilyvvQVApT9Q8yAWIvhk367xUqz7IZivW3yotwKcaZDLZWHcdmfs-psXoiIH97KoqvmnDz5punNw5h6bY-72jN3DHkPJuyTn93Gj7UpT0fCuZE9XsBhKxLG-jfX7jZh1WaN68HIDTfHuu1yfEQENA6-wrOZ8LWZ8d58LnFiBozYGdq1g=w500-h610-no");
-    opacity: 0
+    opacity: 0;
+    box-shadow: 0px 0px 40px rgba(197, 10, 197, 0.925) inset;
+    border-radius: 5px;
+    background-position: center;
 }
 
 .Skills_Logo_Postgres {
@@ -88,6 +111,9 @@
     display: flex;
     background-image: url("https://lh3.googleusercontent.com/CDMLUy0CS8ZWmmV1btfpYYvTGAZLqbhfeLDdolXA2cIzikU3HfiXOCmNBdt-_ClK_oCUIhfH20aD70T970Di_kj2BGYWGzERQ22YtdglWCYM_S8kmLU2QAJqUHRhmggM-ths1llm_7bI5Eowbmn1nd4jOmvN1i3YMuZxPqmgV1USVZL96f9alDQmmS1KCl4L8oJpTvxGME3L6188WN3NOl0WPR0Sl2zn5ptsGjcashF3wXiA9smfBz9MZ_Pyo0QsMH7nVUTdama64HF7jfVfJJ51cyq5tw2xPnM1TeM_Fo6zmTOApsZ8fB_V3Ua7XaOjt44hg8WLH2wh3jn7NiaYSxDtgXQmNbATu4q_9tGi72PvvGPsdAQgjrVdqGIpvo0J52I7eMah0ogCOm_pkJzvNvlXlAd65UhyCDoJOjdvQBoj1rJcuRvc1TZ8eIGLdWdnsb2SUrllU9imQY32VBsAxW_nHwSImrZEiPUp1a9tWIvFCFgnOZRvRz55SV3vKKH3SClZ8umh5RYchpdsDx7kTmkUQ2mphjL31-sy87fpgBHg3lnSKmci35EYSfG9LRK5VjBMJQeBvg1okR2KneJYIIHhcEainsR7mcINGqwx_Lo5L_BzlQWmqtyRz2SZqG8E-Mv586v92DWS2_G5r5yygNbXJ1BkCYWgW1khVzIr4sOl7cfTy6tLKA=w500-h516-no");
     opacity: 0;
+    box-shadow: 0px 0px 50px rgb(21, 8, 134) inset;
+    border-radius: 5px;
+    background-position: center;
 }
 
 .Skills_Logo_PS {
@@ -98,6 +124,9 @@
     display: flex;
     background-image: url("https://lh3.googleusercontent.com/J6YAasylnYiNST5x-sd7rhoxEmqyY_9XprPF95mCMnnZk_JwSrux-y6-Mk4XXtqprlAR8JJCJKgJTFwWB6C4W6UJC2MNw3F9LgXLAcQYudsmR1O89_fMAdLrVl6TKOCXMF0vEbCc02lGHKPpYbVQchdT2UEEAlF7PR2rSfTZlRSS_5-8G9hOj1nxRoobH8DnZrTQ59bnZwEznBCvw-GxDq9Zq6MQm0fumIxswK7OyahLcQ5DnkIeJgOiV64Ce1286Oo1tomA_WUAiLxe2CXz4DionN5vKIB3mD50e9kU2BWDnsPVz2R46ZLglZwa_f0XAwuGNSQYsgOu_jPkhYXT5smlKdHBh4pGUd_5D7XOIvBEGBmNJ87Eaq07e-rFHpn0DKTlt_fn4WLOg9Em6qtKjK6xWZtc8VB5gWswhDmstej_cdXdJ2OleQSV5I40HAGjfa8enpkVSrTD6tD8IZharVRw5F95psO6RO9yFQxgx-ZMCU9uhNrbKtM5CoMyc3DDmftNI4QqRBCPF7_F6mEk_NxQpQrkcWNVXCQtN4LvvCOnRcmh0fzGuPglOEm2QefZ2M1fpBNFG4V7v6HM2Clz34E266g2KqeFq-LU_m_Aoq0rB08dZalu0oZaiO2RZFZ1nW4ortqeg3Bjw6oP6zyvfbyjCryXK1LS4SHOCX0UiZQBGnqqTJ9n0w=w500-h488-no");
     opacity: 0;
+    box-shadow: 0px 0px 40px rgba(60, 6, 255, 0.815) inset;
+    border-radius: 5px;
+    background-position: center;
 }
 
 .JavaScript {
