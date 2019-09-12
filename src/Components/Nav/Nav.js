@@ -1,12 +1,24 @@
-import React, { Component } from "react"
+import React, { useEffect, useRef } from "react"
 import "./Nav.css"
 import Background from '../../Wb2.jpg';
 import Skills from "../Skills/Skills"
-import { TimelineMax, TweenLite, Draggable, Power3, Bounce } from "gsap/all";
+import { TimelineMax, TweenLite, Draggable, Power3, Bounce, TweenMax } from "gsap/all";
 
 
-export default class Nav extends Component {
-    componentDidMount() {
+export default function Nav() {
+
+    let throwable = useRef(null)
+    let move = useRef(null)
+
+    useEffect(() => {
+
+        TweenMax.from(throwable, 2, {y: 310, ease: Power3.Bounce})
+        TweenMax.to(throwable, 1, {y: 60, ease: Power3.Bounce, delay: 2})
+        TweenMax.to(move, 1, {opacity: 1, ease: Power3.easeOut,})
+        TweenMax.to(move, 1, {opacity: 0, ease: Power3.easeOut, delay: 1})
+        TweenMax.to(move, 1, {opacity: 1, ease: Power3.easeOut, delay: 2})
+        TweenMax.to(move, 1, {opacity: 0, ease: Power3.easeOut, delay: 3})
+
         Draggable.create("#Throwable", {
             type: "x,y",
             edgeResistance: 0.15,
@@ -19,7 +31,7 @@ export default class Nav extends Component {
                 else {
                     TweenLite.to(document.getElementsByClassName("Skills_Logo_JavaScript"), 0.3, { opacity: 0, scale: 0 });
                 }
-                if (this.hitTest(".Skills_Logo_Html5", "100%" )) {
+                if (this.hitTest(".Skills_Logo_Html5", "100%")) {
                     TweenLite.to(document.getElementsByClassName("Skills_Logo_Html5"), 0.3, { opacity: 1, scale: 1 })
                 }
                 else {
@@ -31,7 +43,7 @@ export default class Nav extends Component {
                 else {
                     TweenLite.to(document.getElementsByClassName("Skills_Logo_Css3"), 0.3, { opacity: 0, scale: 0 })
                 }
-                if (this.hitTest(".Skills_Logo_React", "100%" )) {
+                if (this.hitTest(".Skills_Logo_React", "100%")) {
                     TweenLite.to(document.getElementsByClassName("Skills_Logo_React"), 0.3, { opacity: 1, scale: 1 })
                 }
                 else {
@@ -61,37 +73,37 @@ export default class Nav extends Component {
                 else {
                     TweenLite.to(document.getElementsByClassName("Skills_Logo_Postgres"), 0.3, { opacity: 0, scale: 0 })
                 }
-                if (this.hitTest(".main_h1", "100%" )) {
-                    TweenLite.to(document.getElementsByClassName('main_h1'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut})
+                if (this.hitTest(".main_h1", "100%")) {
+                    TweenLite.to(document.getElementsByClassName('main_h1'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
                 }
                 else {
                     TweenLite.to(document.getElementsByClassName('main_h1'), .2, { opacity: 0, })
                 }
-                if (this.hitTest(".main_h6","100%")) {
+                if (this.hitTest(".main_h6", "100%")) {
                     TweenLite.to(document.getElementsByClassName('main_h6'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
                 }
                 else {
                     TweenLite.to(document.getElementsByClassName('main_h6'), .2, { opacity: 0, })
                 }
-                if (this.hitTest(".Main_Navigation_Top","100%")) {
+                if (this.hitTest(".Main_Navigation_Top", "100%")) {
                     TweenLite.to(document.getElementsByClassName("Main_Navigation_Top"), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
                 }
                 else {
                     TweenLite.to(document.getElementsByClassName('Main_Navigation_Top'), .2, { opacity: 0, })
                 }
-                if (this.hitTest(".Main_Navigation_Left","100%")) {
+                if (this.hitTest(".Main_Navigation_Left", "100%")) {
                     TweenLite.to(document.getElementsByClassName('Main_Navigation_Left'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
                 }
                 else {
                     TweenLite.to(document.getElementsByClassName('Main_Navigation_Left'), .2, { opacity: 0, })
                 }
-                if (this.hitTest(".Main_Navigation_Right","100%")) {
+                if (this.hitTest(".Main_Navigation_Right", "100%")) {
                     TweenLite.to(document.getElementsByClassName('Main_Navigation_Right'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
                 }
                 else {
                     TweenLite.to(document.getElementsByClassName('Main_Navigation_Right'), .2, { opacity: 0, })
                 }
-                if (this.hitTest(".Main_Navigation_Bottom","100%")) {
+                if (this.hitTest(".Main_Navigation_Bottom", "100%")) {
                     TweenLite.to(document.getElementsByClassName('Main_Navigation_Bottom'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
                 }
                 else {
@@ -106,18 +118,20 @@ export default class Nav extends Component {
                 }
             }
 
-        });
-    }
-    render() {
-        return (
-            <div>
-                <div className="App_Background" src={Background} alt="Background">
+        })
+    }, [])
 
-                    <div id="Throwable" className="Nav_Header">
-
-                    </div>
+    return (
+        <div>
+            <div className="App_Background" src={Background} alt="Background">
+                <div
+                ref={el => throwable = el}
+                    id="Throwable" className="Nav_Header">
+                    <h1
+                    ref={el => move = el}
+                    className="Move_Me">Move me!</h1>
                 </div>
             </div>
-        )
-    }
+        </div>
+    )
 }
