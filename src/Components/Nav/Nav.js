@@ -116,6 +116,20 @@ export default function Nav() {
                 else {
                     TweenLite.to(document.getElementsByClassName('Skills_Link'), .2, { opacity: 0, })
                 }
+                if (this.hitTest(".Contact_Profile_image", "100%")) {
+                    console.log('hit')
+                    TweenLite.to(document.getElementsByClassName('Contact_Profile_image'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
+                }
+                else {
+                    TweenLite.to(document.getElementsByClassName('Contact_Profile_image'), .2, { opacity: 0, })
+                }
+                if (this.hitTest(".Contact_Links_Container", "90%")) {
+                    console.log('hit')
+                    TweenLite.to(document.getElementsByClassName('Contact_Links_Container'), .5, { opacity: 1, scale: 1, ease: Bounce.easeOut })
+                }
+                else {
+                    TweenLite.to(document.getElementsByClassName('Contact_Links_Container'), .2, { opacity: 0, })
+                }          
             }
 
         })
