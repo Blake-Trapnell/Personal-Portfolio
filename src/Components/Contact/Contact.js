@@ -17,7 +17,7 @@ export default function Contact() {
                 </p>
                     </h3>
                 </a>
-                <a href="LinkedIn Profile: https://www.linkedin.com/in/blake-trapnell-0b526495/">
+                <a href="https://www.linkedin.com/in/blake-trapnell-0b526495/">
                     <h3 className="Contact_Links">LinkedIn Profile: https://www.linkedin.com/in/blake-trapnell-0b526495/</h3>
                 </a>
 
