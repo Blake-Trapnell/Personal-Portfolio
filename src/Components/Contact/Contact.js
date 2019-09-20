@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import './Contact.css'
 
 export default function Contact() {
@@ -20,6 +21,9 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/blake-trapnell-0b526495/">
                     <h3 className="Contact_Links">LinkedIn Profile: https://www.linkedin.com/in/blake-trapnell-0b526495/</h3>
                 </a>
+                    <Link to="/About">
+                    <h1 style={{textShadow: "0 0 10px rgb(0, 4, 255)"}} className="Contact_Links Aboutme">About me</h1>
+                    </Link>
 
             </div>
         </div>

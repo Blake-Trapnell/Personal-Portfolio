@@ -1,7 +1,11 @@
 import React from "react"
 import "./Main.css"
+import {TweenMax} from "gsap/all"
 
 export default function Main() {
+
+ 
+
     return (
         <div className="main_info">
             <div className="Main_Name">
@@ -12,7 +16,7 @@ export default function Main() {
             </div>
             <div className="Main_Navigation">
                 <div className="Main_Navigation_Top">
-                    <h4>About Me</h4>
+                    <h4></h4>
                 </div>
                 <div className="Main_Navigation_LeftRight">
                     <h4 className="Main_Navigation_Left">⇦ Contact</h4>
