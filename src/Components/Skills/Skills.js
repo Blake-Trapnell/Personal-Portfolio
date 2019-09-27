@@ -43,7 +43,7 @@ export default function Skills() {
                 </div>
             </div>
         </div>
-            <h4 className="Skills_Link">For more Info, Click Here</h4>
+            {/* <h4 className="Skills_Link">For more Info, Click Here</h4> */}
         </div>
     )
 }
