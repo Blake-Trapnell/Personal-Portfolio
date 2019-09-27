@@ -13,7 +13,7 @@ export default function Nav() {
     useEffect(() => {
 
         TweenMax.from(throwable, 2, {y: 310, ease: Power3.Bounce})
-        TweenMax.to(throwable, 1, {y: 60, ease: Power3.Bounce, delay: 2})
+        TweenMax.to(throwable, 1, {y: 80, ease: Power3.Bounce, delay: 2})
         TweenMax.to(move, 1, {opacity: 1, ease: Power3.easeOut,})
         TweenMax.to(move, 1, {opacity: 0, ease: Power3.easeOut, delay: 1})
         TweenMax.to(move, 1, {opacity: 1, ease: Power3.easeOut, delay: 2})

@@ -11,7 +11,7 @@ export default function Contact() {
                 </div>
             </div>
                 <div className="About-Aces-Dungeon-Creator">
-                    <a href="acesdungeoncreator.com">
+                    <a href="http://www.acesdungeoncreator.com" target="_blank">
                     <h1 className="Projects-Title">Ace's Dungeon Creator</h1>
                     </a>
                     <h4>A mobile responsive website <p>
@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
             </div>
                 <div className="About-game-Traders">
-                    <a href="104.248.178.127:4200">
+                    <a href="http://104.248.178.127:4200/#/" target="_blank">
                     <h1 className="Projects-Title">Game Traders</h1>
                     </a>
                     <h4>A Smart rework of the current <p>
