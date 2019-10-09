@@ -1,5 +1,4 @@
 import React from "react"
-import Nav from "../Nav/Nav.js"
 import Skills from "../Skills/Skills.js"
 import Main from  "../Main/Main.js"
 import Contact from "../Contact/Contact.js"
@@ -9,7 +8,7 @@ import "./Landing.css"
 
 export default function Landing() {
     return(
-        <div className="Landing_Outer" >
+        <div src={require('../../Pics/background.jpg')} className="Landing_Outer" >
           <div className="landing-main">
       <Contact/>
       <Main/>

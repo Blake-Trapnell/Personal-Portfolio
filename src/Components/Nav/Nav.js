@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react"
 import "./Nav.css"
 import Background from '../../Wb2.jpg';
-import Skills from "../Skills/Skills"
 import { TimelineMax, TweenLite, Draggable, Power3, Bounce, TweenMax } from "gsap/all";
 
 

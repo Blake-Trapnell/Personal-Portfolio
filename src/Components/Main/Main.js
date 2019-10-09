@@ -1,13 +1,12 @@
 import React, {Component} from "react"
 import "./Main.css"
 import {TweenMax} from "gsap/all"
-import { relative } from "path"
 
 export default class Main extends Component {
     state = {
-        displayContact: false,
-        displayProjects: false,
-        displaySkills: false,
+        displayContact: true,
+        displayProjects: true,
+        displaySkills: true,
     }
 
  moveContact = () => {
@@ -71,7 +70,7 @@ render() {
             </div>
             <div className="Main_Navigation">
                 <div className="Main_Navigation_Top">
-                    <h4></h4>
+              
                 </div>
                 <div className="Main_Navigation_LeftRight">
                     <h4 onClick={()=>this.moveContact()} className="Main_Navigation_Left">⇦ Contact</h4>
