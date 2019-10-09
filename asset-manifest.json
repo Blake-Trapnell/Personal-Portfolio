@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1917b751.chunk.css",
+    "main.js": "/static/js/main.1fd61822.chunk.js",
+    "main.js.map": "/static/js/main.1fd61822.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.6dcebf9c.js",
+    "runtime~main.js.map": "/static/js/runtime~main.6dcebf9c.js.map",
+    "static/js/2.c6474e22.chunk.js": "/static/js/2.c6474e22.chunk.js",
+    "static/js/2.c6474e22.chunk.js.map": "/static/js/2.c6474e22.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.48b8e0a1727a533331178baa43a9b7cd.js": "/precache-manifest.48b8e0a1727a533331178baa43a9b7cd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1917b751.chunk.css.map": "/static/css/main.1917b751.chunk.css.map",
+    "static/media/background.jpg": "/static/media/background.ee8be060.jpg",
+    "static/media/node.png": "/static/media/node.e88af43b.png",
+    "static/media/postgresql.png": "/static/media/postgresql.881c946e.png",
+    "static/media/profile.jpg": "/static/media/profile.80af0caa.jpg"
+  }
+}
