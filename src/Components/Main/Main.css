@@ -1,11 +1,9 @@
 .main_info {
-    height: 28vh;
-    width: 100vw;
+    height: 100%;
+    width: 50%;
     font-size: 6rem;
     color: rgba(255, 255, 255, 0.747);
     text-shadow: 0 0 10px rgba(26, 190, 255, 0.801);
-    position: relative;
-    bottom: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;

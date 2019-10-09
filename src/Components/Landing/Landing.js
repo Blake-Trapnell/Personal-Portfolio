@@ -10,11 +10,13 @@ import "./Landing.css"
 export default function Landing() {
     return(
         <div className="Landing_Outer" >
-        <Nav/>
-      <Main/>
-      <Skills/>
+          <div className="landing-main">
       <Contact/>
+      <Main/>
       <Projects/>
+          </div>
+          <div className="landing-footer"></div>
+      <Skills/>
         </div>
     )
 }

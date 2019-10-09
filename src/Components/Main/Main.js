@@ -1,10 +1,48 @@
-import React from "react"
+import React, {Component} from "react"
 import "./Main.css"
 import {TweenMax} from "gsap/all"
+import { relative } from "path"
 
-export default function Main() {
+export default class Main extends Component {
+    state = {
+        displayContact: false,
+        displayProjects: false,
+        displaySkills: false,
+    }
 
- 
+ moveContact = () => {
+     
+     this.setState({
+         displayContact: !this.state.displayContact
+     })
+if(this.state.displayContact === false) {
+  TweenMax.to(document.getElementsByClassName("Contact_Outer"), 1, {opacity: 0,})
+
+    
+}
+else if(this.state.displayContact === true) {TweenMax.to(document.getElementsByClassName("Contact_Outer"), 1, {opacity: 1})
+    TweenMax.from(document.getElementsByClassName("Contact_Links"), 1, {x: -300})
+ }
+
+ }
+
+ moveProjects = () => {
+    
+    this.setState({
+        displayProjects: !this.state.displayProjects
+    })
+if(this.state.displayProjects === false) {
+ TweenMax.to(document.getElementsByClassName("Projects_Outer"), 1, {opacity: 0})
+
+   
+}
+else if(this.state.displayProjects === true) {TweenMax.to(document.getElementsByClassName("Projects_Outer"), 1, {opacity: 1})
+TweenMax.from(document.getElementsByClassName("Projects_Outer"), 1, {x: 300})
+}
+
+}
+render() {
+
 
     return (
         <div className="main_info">
@@ -19,8 +57,8 @@ export default function Main() {
                     <h4></h4>
                 </div>
                 <div className="Main_Navigation_LeftRight">
-                    <h4 className="Main_Navigation_Left">⇦ Contact</h4>
-                    <h4 className="Main_Navigation_Right">Projects ⇨</h4>
+                    <h4 onClick={()=>this.moveContact()} className="Main_Navigation_Left">⇦ Contact</h4>
+                    <h4 onClick={()=>this.moveProjects()} className="Main_Navigation_Right">Projects ⇨</h4>
                 </div>
                 <div className="Main_Navigation_Bottom">
                     <h4>Skills <p>⇩</p></h4>
@@ -29,4 +67,5 @@ export default function Main() {
         </div>
 
     )
+}
 }

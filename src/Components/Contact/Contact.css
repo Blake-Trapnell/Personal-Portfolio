@@ -1,9 +1,8 @@
 .Contact_Outer {
-    height: 80%;
-    width: 20%;
+    opacity: 0;
+    height: 100%;
+    width: 25%;
     display: flex;
-    position: absolute;
-    right: 80%;
     flex-direction: column;
     color: whitesmoke;
     font-size: 1rem;
@@ -18,17 +17,11 @@
     background-position: center;
     border-radius: 50%;
     margin: 10px;
-    opacity: 0;
-}
-
-.Contact_Links_Container {
-    opacity: 0;
 }
 
 .Contact_Links {
     margin: 10% 0;
     font-size: 1.2rem;
-    opacity: 1;
     text-shadow: 0 0 10px rgb(255, 0, 212);
 }
 

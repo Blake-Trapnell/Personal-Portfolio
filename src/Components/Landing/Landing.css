@@ -10,3 +10,11 @@
     align-items: center;
     overflow: hidden;
 }
+
+.landing-main {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
