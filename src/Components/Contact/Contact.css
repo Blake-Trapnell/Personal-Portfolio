@@ -11,11 +11,10 @@
 
 .Contact_Profile_image {
     height: 180px;
-    width: 180px;
+    width: auto;
     background-size: cover;
-    background-image: url('https://lh3.googleusercontent.com/s7k5y1OqXWfZIX1q2JBUtH0xESBal3rjqCT4AFqD5FKZ8jDm_DUXwgqezWeJH6zTcaUwJ6x2gjPjmOQAIiQgwaT8bF6AxRFZYYcjYo7_56Af7-xBhb7XDBRyPab4XtzG7V9OU_35dhdlu2K13RCJgu8pbKadBZ_05kVP5F9PZw6Goe3TawgTLNm4JvNcZcwpL2UoXhY7yLOiTaCn-0a0OJcYyML5iOp_wv9MG1nci8u7cr3pLglp_5ybBDByTbn-O4eqMKB8CPfSdudlZa64IfV8B-UqoZscwU9ipopxUrx5FEUkJpuv8_GX-YJjSDf26yK6lDcxWc-5feh6W-vq3PLr5CI7yeTfKbtWJ_EkoL6z_8o1Jwms4VPNxbGhm-DO2OQalS7k69BgrRkn_2aTN4_RkTqc9RyClE3JH_pKA7HmSAcZ6iLWnkMUA_zuet-HFtEfv-CFv0FWBkO7WVDsskK9Ha8-T4FzdwAtJE7RqbSKF_2vg9I2YfF8wh30hWKDQ0iRNiXtuRvO3YjURhXF5JSWE-dFxT5xY6Y0K8dGcmy3UPUfx7NyqI2Qw_Nc4CAzpqMMptGUWCQKq9tNNNREXiegoHEweqWrqlw8bDjikAD7-M6hJAZjcnq8CtdyDUdyeMGb3MetbZQOveGQ-2qC5sel3Tn1kJ7bpze0eY_dy-fHugSIYY_geA=w1485-h990-no');
     background-position: center;
-    border-radius: 50%;
+    border-radius: 10px;
     margin: 10px;
 }
 

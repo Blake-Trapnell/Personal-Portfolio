@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <div className="Contact_Outer">
 
-            <div className="Contact_Profile_image"></div>
+            <img src={require("../../Pics/profile.jpg")} className="Contact_Profile_image"></img>
             <div className="Contact_Links_Container">
                 <h3  style={{textShadow: "0 0 10px rgb(72, 255, 0)"}} id="email" className="Contact_Links email">Email: <p>
                     BlakeTrapnell.Dev@Gmail.com

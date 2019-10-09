@@ -41,6 +41,23 @@ TweenMax.from(document.getElementsByClassName("Projects_Outer"), 1, {x: 300})
 }
 
 }
+
+moveSkills = () => {
+    
+    this.setState({
+        displaySkills: !this.state.displaySkills
+    })
+if(this.state.displaySkills === false) {
+ TweenMax.to(document.getElementsByClassName("Skills_Outer"), 1, {opacity: 0})
+
+   
+}
+else if(this.state.displaySkills === true) {TweenMax.to(document.getElementsByClassName("Skills_Outer"), 1, {opacity: 1})
+TweenMax.from(document.getElementsByClassName("Skills_Outer"), 1, {y: 300})
+}
+
+}
+
 render() {
 
 
@@ -61,7 +78,7 @@ render() {
                     <h4 onClick={()=>this.moveProjects()} className="Main_Navigation_Right">Projects ⇨</h4>
                 </div>
                 <div className="Main_Navigation_Bottom">
-                    <h4>Skills <p>⇩</p></h4>
+                    <h4 onClick={()=>this.moveSkills()}>Skills</h4>
                 </div>
             </div>
         </div>
